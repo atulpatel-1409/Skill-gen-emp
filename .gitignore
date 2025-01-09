@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variable files
+*.env
+*.env.*
+
+# MySQL database credentials or backup files
+*.sql
+*.db
+
+# Flask specific files
+instance/
+.pytest_cache/
+.flaskenv
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Python egg files
+*.egg-info/
+.eggs/
+
+# Cache
+*.cache
+*.mypy_cache/
+
+# Editor files
+.vscode/
+.idea/
+
+# Ignore secrets
+secret_key.txt
+google_api_key.json
+
+# Docker files
+docker-compose.override.yml

@@ -1,4 +1,0 @@
-Flask
-mysql-connector-python
-langchain-google-genai
-openai
